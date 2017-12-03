@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8d8962e-cbf6-4ecf-84dd-2e842ec97bc2" name="Default" comment="" />
+    <list default="true" id="c8d8962e-cbf6-4ecf-84dd-2e842ec97bc2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/EnumOrigemPortaria.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/Portaria.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/Curso.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/Disciplina.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/Docente.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/PeriodoLetivo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/PublicoDiscente.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ensino/Turma.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/extensao/ProjetoExtensao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/geral/MapaPapel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/geral/Papel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/geral/Pessoa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/pesquisa/ProjetoPesquisa.java" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,57 +127,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TACS" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-ddd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TACS" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-ddd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-ddd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-ddd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projeto-ddd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto-ddd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="regex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512316917560</updated>
-      <workItem from="1512316919034" duration="1603000" />
+      <workItem from="1512316919034" duration="2268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1603000" />
+    <option name="totallyTimeSpent" value="2268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,6 +312,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/dao/Entidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/ExcecaoNegocio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/projeto-ddd/src/main/java/TACS/model/domain/Tarefa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

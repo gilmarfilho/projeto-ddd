@@ -1,5 +1,6 @@
 package TACS.model.dao;
 
+import TACS.model.domain.Entidade;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -21,7 +22,7 @@ import javax.persistence.criteria.Root;
  *          Classe genérica afim de mapear as operações de CRUD de uma entidade
  *          qualquer do sistema.
  */
-public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
+public abstract class DAO<T extends Entidade, ID extends Serializable> {
 
 	/**
 	 * Fornecedor de EntityManager.
@@ -41,7 +42,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 * @param clazzP
 	 *            - Classe da entidade.
 	 */
-	public GenericDAO(final ProvedorTransacao transacao,
+	public DAO(final ProvedorTransacao transacao,
 			final Class<T> clazzP) {
 		trs = transacao;
 		clazz = clazzP;
@@ -107,7 +108,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 *          registro.
 	 * @param id - Id do registro.
 	 */
-	public void  atualizar(BlocoAtualizar<T> b, ID id) {
+	public void atualizar(BlocoAtualizar<T> b, ID id) {
 		trs.tx((em) -> {
 			T registro = em.find(clazz, id);
 			b.atualizacao(registro);

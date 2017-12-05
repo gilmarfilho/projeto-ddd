@@ -9,7 +9,7 @@ import TACS.model.domain.Tarefa;
  * 
  *          Implementação concreta para manipulacao da entidade {@link Tarefa}.
  */
-public class TarefaDAO extends GenericDAO<Tarefa, Long> {
+public class TarefaDAO extends DAO<Tarefa, Long> {
 
 	/**
 	 * 

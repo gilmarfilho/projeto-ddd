@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 import TACS.controller.dto.TarefaDTO;
-import TACS.model.dao.GenericDAO.BlocoAtualizar;
+import TACS.model.dao.DAO.BlocoAtualizar;
 import TACS.model.dao.TarefaDAO;
 import TACS.model.dao.TransacaoHibernate;
 import TACS.model.domain.Tarefa;

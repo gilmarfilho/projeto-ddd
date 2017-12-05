@@ -5,14 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
-import TACS.model.dao.Entidade;
-
 /**
  * 
  * @author  gabriel
  * @version 1.0.0
  */
-
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Tarefa extends Entidade {

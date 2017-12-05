@@ -1,4 +1,4 @@
-package TACS.model.dao;
+package TACS.model.domain;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;

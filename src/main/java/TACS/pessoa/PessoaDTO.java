@@ -2,9 +2,7 @@ package TACS.pessoa;
 
 import TACS.common.DTO;
 import TACS.hobbies.HobbieDAO;
-import TACS.pessoa.PessoaDAO;
 import TACS.infraestrutura.TransacaoHibernate;
-import TACS.pessoa.Pessoa;
 import TACS.hobbies.Hobbie;
 import java.util.Set;
 import java.util.stream.Collectors;

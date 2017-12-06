@@ -7,6 +7,7 @@ import static TACS.common.UtilValidacao.valida;
 import java.util.Collections;
 import java.util.Set;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.ManyToMany;
@@ -15,10 +16,10 @@ import javax.persistence.ManyToMany;
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Pessoa extends Entidade {
     
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private Set<Pessoa> relacoes;
     
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private Set<Hobbie> interesses;
 
     /**

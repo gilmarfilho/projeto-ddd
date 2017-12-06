@@ -12,13 +12,9 @@
 		<!-- Propriedades default de concexão e funcionamento do Hibernate. -->
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="123456"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:derby:db"/>
-			<property name="hibernate.connection.shutdown" value="true"/>
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
-		</properties>
-		
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby:db;create=true"/>
+                        <property name="hibernate.hbm2ddl.auto" value="create"/>
+                </properties>
 	</persistence-unit>
 
 </persistence>

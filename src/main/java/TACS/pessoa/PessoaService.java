@@ -3,15 +3,13 @@ package TACS.pessoa;
 import java.util.stream.Collectors;
 
 import TACS.common.DAO.BlocoAtualizar;
-import TACS.pessoa.PessoaDAO;
 import TACS.infraestrutura.TransacaoHibernate;
-import TACS.pessoa.Pessoa;
 import java.util.Set;
 
 public class PessoaService {
 
         private final PessoaDAO dao = new PessoaDAO(
-                new TransacaoHibernate(),Pessoa.class);
+                new TransacaoHibernate(), Pessoa.class);
         
 	public PessoaDTO criar(final PessoaDTO dto) {
             Pessoa nova = PessoaDTO.converterDTO(dto);

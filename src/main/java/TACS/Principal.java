@@ -1,16 +1,15 @@
 package TACS;
 
 
-import TACS.view.api.Api;
+import TACS.common.Api;
 import org.apache.log4j.PropertyConfigurator;
 
-import TACS.view.api.WebServiceConfiguracao;
-import TACS.view.api.ApiTarefa;
-import TACS.view.api.HobbieAPI;
-import TACS.view.api.InteresseAPI;
-import TACS.view.api.MarketingAPI;
-import TACS.view.api.PessoaAPI;
-import TACS.view.api.RelacoesAPI;
+import TACS.aplicacao.WebServiceConfiguracao;
+import TACS.hobbies.HobbieAPI;
+import TACS.interesse.InteresseAPI;
+import TACS.marketing.MarketingAPI;
+import TACS.pessoa.PessoaAPI;
+import TACS.relacao.RelacoesAPI;
 
 /**
  *
@@ -34,7 +33,6 @@ public class Principal {
 		/**
 		 * Controllers que estrão ativos.
 		 */
-                ApiTarefa.api(args);
                 PessoaAPI.api(args);
                 HobbieAPI.api(args);
                 RelacoesAPI.api(args);
